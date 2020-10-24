@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mother3Patcher", "Mother3Patcher\Mother3Patcher.csproj", "{03B62428-C9D8-4DB5-8A1C-86252929439E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mother3Patcher.macOS", "Mother3Patcher.macOS\Mother3Patcher.macOS.csproj", "{BCADC0DB-48F5-4BC0-9F8E-2F7C211BC205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mother3Patcher.WPF", "Mother3Patcher.WPF\Mother3Patcher.WPF.csproj", "{1B128BB7-87C5-489D-B38B-2FAEEAC481BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DAE3A336-0CCC-4485-9490-88E370993651}"
+	ProjectSection(SolutionItems) = preProject
+		img\banner.jpg = img\banner.jpg
+		\\Mac\Home\Projects\Mother3Patcher\img\icon.ico = \\Mac\Home\Projects\Mother3Patcher\img\icon.ico
+		\\Mac\Home\Projects\Mother3Patcher\img\icon.png = \\Mac\Home\Projects\Mother3Patcher\img\icon.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03B62428-C9D8-4DB5-8A1C-86252929439E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B62428-C9D8-4DB5-8A1C-86252929439E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B62428-C9D8-4DB5-8A1C-86252929439E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B62428-C9D8-4DB5-8A1C-86252929439E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCADC0DB-48F5-4BC0-9F8E-2F7C211BC205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCADC0DB-48F5-4BC0-9F8E-2F7C211BC205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCADC0DB-48F5-4BC0-9F8E-2F7C211BC205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCADC0DB-48F5-4BC0-9F8E-2F7C211BC205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B128BB7-87C5-489D-B38B-2FAEEAC481BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B128BB7-87C5-489D-B38B-2FAEEAC481BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B128BB7-87C5-489D-B38B-2FAEEAC481BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B128BB7-87C5-489D-B38B-2FAEEAC481BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90DFF695-19F2-4CBB-BD20-19DCDEF2D970}
+	EndGlobalSection
+EndGlobal
