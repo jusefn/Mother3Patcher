@@ -12,8 +12,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DAE3A336-0CCC-4485-9490-88E370993651}"
 	ProjectSection(SolutionItems) = preProject
 		img\banner.jpg = img\banner.jpg
-		\\Mac\Home\Projects\Mother3Patcher\img\icon.ico = \\Mac\Home\Projects\Mother3Patcher\img\icon.ico
-		\\Mac\Home\Projects\Mother3Patcher\img\icon.png = \\Mac\Home\Projects\Mother3Patcher\img\icon.png
+		img\icon.ico = img\icon.ico
+		img\icon.png = img\icon.png
 	EndProjectSection
 EndProject
 Global
