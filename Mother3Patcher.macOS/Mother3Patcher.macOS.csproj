@@ -52,20 +52,31 @@
     <Reference Include="Xamarin.Mac" />
   </ItemGroup>
   <ItemGroup>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-128.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-128%402x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-16.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-16%402x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-256.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-256%402x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-32.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-32%402x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-512.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-512%402x.png" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
     <ImageAsset Include="Resources\Assets.xcassets\banner.imageset\banner.jpg" />
     <ImageAsset Include="Resources\Assets.xcassets\banner.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\.DS_Store" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\icon.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\icon-8.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\icon-9.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\icon-2.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\icon-3.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\icon-1.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\icon-4.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\icon-5.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\icon-7.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\icon-6.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\icon_32x32%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\icon_128x128.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\icon_256x256%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\icon_32x32.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\icon_512x512.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\icon_16x16.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\icon_16x16%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\icon_128x128%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\icon_512x512%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\icon_256x256.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -84,6 +95,11 @@
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="ups" />
+    <BundleResource Include="mother3.ups" />
+    <BundleResource Include="Resources\.DS_Store" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />
 </Project>

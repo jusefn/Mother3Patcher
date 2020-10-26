@@ -731,6 +731,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="browseButton:" target="XfG-lQ-9wD" id="fah-bX-UV3"/>
+                                </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cd0-7h-0IW">
                                 <rect key="frame" x="415" y="13" width="112" height="32"/>
@@ -739,6 +742,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="applyButton:" target="XfG-lQ-9wD" id="D0X-rZ-dfT"/>
+                                </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XQh-73-Hbk">
                                 <rect key="frame" x="18" y="19" width="151" height="18"/>
@@ -747,6 +753,9 @@
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="backupChecked:" target="XfG-lQ-9wD" id="6Uy-54-Psx"/>
+                                </connections>
                             </button>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gYk-fY-JHX">
                                 <rect key="frame" x="20" y="53" width="394" height="21"/>
@@ -759,6 +768,10 @@
                             </textField>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="backupChecked" destination="XQh-73-Hbk" id="mkY-94-66l"/>
+                        <outlet property="fileBox" destination="gYk-fY-JHX" id="GNh-Le-uEI"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

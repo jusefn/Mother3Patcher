@@ -8,13 +8,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="mother3.ups" />
     <None Remove="Resources\banner.jpg" />
+    <None Remove="ups.exe" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Resources\banner.jpg">
+    <Resource Include="Resources\banner.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="mother3.ups">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ups.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CustomToolNamespace></CustomToolNamespace>
+      <Generator></Generator>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>
@@ -23,12 +36,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Update="Resource1.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Update="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 
