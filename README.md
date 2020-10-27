@@ -22,7 +22,7 @@ You will need the .NET Core SDK
 For macOS you will also need XCode.
 
 ## Acknowledgements
-This patcher includes the [UPS patcher by rameshvarun](https://github.com/rameshvarun/ups) and the Mother 3 Fan Translation v1.4 by Clyde Mandelin and Jeffman. 
+This patcher includes the [UPS patcher by rameshvarun](https://github.com/rameshvarun/ups) and the Mother 3 Fan Translation v1.2 by Clyde Mandelin and Jeffman. 
 
 
 This project is not affiliated with Nintendo, 1-UP Studio, HAL Laboratories, Shigesato Itoi or the Mother 3 Fan Translation Project.
