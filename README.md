@@ -1,3 +1,7 @@
+## This project is obsolete.
+[You should probably use the official patcher on the Mother 3 Fan Translation website as the current patcher works with recent macOS versions and also features a more recent version of the translation hack which makes this repository obsolete and I don't really have plans to continue working on this project.](http://mother3.fobby.net/)
+
+
 # Mother3Patcher
 A GUI Mother 3 Fan Translation patcher for Windows and macOS. Inspired by Tomato and JeffMan's Mother 3 Fan Translation Patcher
 ![](img/mac.png)
